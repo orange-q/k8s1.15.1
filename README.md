@@ -61,7 +61,7 @@ kubectl get service --all-namespaces | grep kubernetes-dashboard
 
 4、例如结果：
 kube-system   kubernetes-dashboard   NodePort    10.111.252.237   <none>        443:32164/TCP            25m
-那么你就输入https://nodeIP:31660来登录  ,例如：https://172.31.100.20:32164/#!/login
+那么你就输入https://nodeIP:32164来登录  ,例如：https://172.31.100.20:32164/#!/login
 	
 5、查看登录时候的token
 
